@@ -1,0 +1,346 @@
+
+
+
+
+
+
+
+
+
+
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "roboto", sans-serif;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  ul,
+  ol {
+    list-style: none;
+  }
+  .container {
+    max-width: 1306px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  .button {
+    font-size: 18px;
+    line-height: 18px;
+    background: blue;
+    color: white;
+    font-weight: 400;
+    border-radius: 5px;
+    padding: 18px 70px 16px;
+    text-transform: uppercase;
+  }
+  body {
+    background: #040714;
+    color: aliceblue;
+  }
+  button {
+    background: transparent;
+    border: none;
+  }
+  .section_title {
+    text-align: center;
+  }
+  .section_title p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #c0c0c0;
+  }
+  .section_title h2 {
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 54px;
+  }
+
+  /* navbar start */
+  nav {
+    padding: 10px 0;
+    background: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  nav .login {
+    text-align: right;
+  }
+  nav .login a {
+    border-radius: 4px;
+    border: 1px solid white;
+    padding: 16px 17px;
+    color: white;
+    line-height: 18px0;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: inline-block;
+  }
+
+  /* navbar end */
+
+  /* section start */
+  #banner {
+    height: 675px;
+
+    background: url("../picture/Background\ \(1\).png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .banner_content {
+    position: absolute;
+    top: 80px;
+  }
+  .banner_content .banner_info {
+    width: 640px;
+  }
+
+  .banner_content .banner_info .banner_buttons {
+    display: flex;
+    gap: 32px;
+  }
+
+  .banner_content .banner_info h3 {
+    color: white;
+    line-height: 24px;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    padding-top: 49px;
+  }
+
+  .banner_content .banner_info p {
+    color: white;
+    line-height: 22px;
+    font-size: 12px;
+    letter-spacing: 0.2px;
+    padding-top: 24px;
+  }
+  .banner_content .banner_info p a {
+    color: rgb(248, 252, 252);
+  }
+  .banner_content .banner_info .branlogos {
+    padding-top: 31px;
+    padding-right: 30px;
+  }
+
+  .banner_content .banner_info .text {
+    color: white;
+    line-height: 30px;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+  }
+  .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #filter {
+    padding-top: 52px;
+    padding-bottom: 140px;
+  }
+
+  .filter_menu ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .filter_menu ul li button {
+    color: #f9f9f9;
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 30px;
+  }
+
+  .filter_menu ul li.active button {
+    border-bottom: 5px solid #f9f9f9;
+    padding-bottom: 4px;
+  }
+
+  .filter_items {
+    display: flex;
+    padding-top: 24px;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+  .filter_items figure {
+    width: 32%;
+  }
+  .filter-items img{
+    width: 32%;
+    margin-top: 5px;
+    margin-left: 2px;
+    display:inline-flex;
+
+}
+
+  .choose_btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 26px;
+  }
+  .choose_btn ul {
+    display: inline-flex;
+    border: 5px solid #2b2d37;
+    background: #2b2d37;
+    border-radius: 1000px;
+    justify-content: center;
+    width: fit-content;
+    margin: auto;
+  }
+
+  .choose_btn ul li button {
+    border-radius: 1000px;
+    /* background: blue;/ */
+    color: #f9f9f9;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    padding: 4px 16px;
+  }
+  .choose_btn ul li.active button {
+    background: blue;
+  }
+
+  .plan_container {
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 30px;
+  }
+
+  .plans_cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 350px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+  }
+
+
+
+  @media (min-width: 600px) {
+    .plans_cards {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .plans_cards {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  .card_header_image {
+    margin-bottom: 15px;
+  }
+
+  .plane_name {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .plan_facility {
+    display: flex;
+    margin-top: 15px;
+  }
+
+  .plan_facility_ul {
+    display: flex !important;
+    flex-direction: column !important;
+    border: none !important;
+    background: none !important;
+  }
+
+  .plan_paragraph {
+    color: #b4b4b5;
+  }
+
+  .card_bottom {
+    display: flex;
+    flex-direction: column;
+  }
+  .plan_price {
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .text {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    color: #b4b4b5;
+  }
+  .text_list {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    color: #b4b4b5;
+    margin-bottom: 80px;
+  }
+  .text_items li {
+    color: #b4b4b5;
+    padding: 20px 30px;
+  }
+  .parent {
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .watch {
+    justify-content: center;
+    padding: 0px 80px;
+    margin-bottom: 20px;
+  }
+  .parent_list {
+    display: flex;
+    align-items: end;
+    margin-bottom: 20px;
+  }
+  .name {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .footer_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    background-color:#13151D;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .footer_items {
+    margin-left: 20px;
+  }
+
+  .svg_list{
+    margin-right: 10px;
+
+  }
+
+  .card_details_bottom{
+    margin-bottom: 10px;
+  }

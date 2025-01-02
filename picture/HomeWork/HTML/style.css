@@ -1,0 +1,262 @@
+/*==========All common CSS Start =========*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    background: #13151D;
+    color: #f9f9f9;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+
+    list-style: none;
+}
+.container{
+    max-width:1276px ;
+    padding: 0 15px;
+   margin: 0 auto;
+   
+}
+.button{
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 400;
+    background:#0063E5 ;
+    color: #f9f9f9;
+    border-radius: 4px;
+    padding: 22px 75px 20px;
+    text-transform: uppercase;
+}
+.section-title{
+    text-align: center;
+    justify-content: center;
+    display: inline-flex;
+}
+.section-title h2{
+    font-size: 42px;
+    font-weight: 900;
+    line-height:54px ;
+    
+}
+.section-title p{
+    color: #C0C0C0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height:24px ;
+   
+
+}
+
+
+
+/*==========All common CSS End =========*/
+/*==========Navbar Start ===========*/
+nav{
+    padding: 10px 0px;
+    background: transparent;
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+}
+nav .login {
+    text-align: right;
+}
+nav .login a{
+    border: 1px solid#c0c0c0;
+    border-radius:4px;
+    padding: 16px 17px;
+    color:#f9f9f9 ;
+    line-height: 18px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+/*==========Navvber End ============*/
+
+
+/*==========Banner Start ===========*/
+/*Banner section start */
+#banner{
+    background:url("../Picture/Background\ \(1\).png") ;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.banner-content{}
+.banner-content.banner-info.banner-buttons{
+    display: flex;
+    gap: 32px;
+
+}
+
+.banner-content.banner-info .h3{
+    font-size: 16px;
+    color: #C0C0C0;
+    line-height:2px ;
+    letter-spacing: 0.2px;
+    padding-top: 49px;
+
+}
+.banner-content.banner-info .p{
+    font-size: 12px;
+    color: #C0C0C0;
+    line-height:22px ;
+    letter-spacing: 0.2px;
+    padding-top: 24px;
+
+}
+.banner-content.banner-info .p .a .h3{
+    
+    color: white
+  
+}
+
+.banner-content.banner-info.brand-logos{
+padding-top: 31px;
+padding-bottom: 30px;
+}
+.banner-content.banner-info.view-all-plan{
+    font-size: 20px;
+    color: #f9f9f9;
+    line-height:30px
+
+
+
+}/*
+/*Banner section End*/
+/* part start*/
+#filter{
+    padding-top: 52px;
+    padding-bottom: 140px;
+
+}
+.filter-menu{}
+.filter-menu ul{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.filter-menu ul li{}
+.filter-menu ul li button {
+    color: #020202;
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 30px;
+    background: transparent;
+    border: none;
+    color: #f9f9f9;
+    
+}
+.filter-menu ul li.active{
+    border-bottom: 5px solid#f9f9f9;
+    padding-bottom: 4px;
+    margin: none;
+}
+.filter-menu ul li button{
+
+}
+
+
+
+.filter-items{
+    padding-top: 24px;
+    display:flex;
+    flex-wrap: wrap;
+}
+.filter-items figure{
+    
+}
+.filter-items img{
+    width: 33%;
+    margin-top: 5px;
+    margin-left: 2px;
+
+}
+
+/*second part end*/
+
+/*==========3rd part Start ===========*/
+
+.choose-button{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   padding-top: 26px;
+}
+
+.choose-button .plan-btn{
+    border: 5px solid #2b2d37;
+    background-color:#2b2d37 ;
+    border-radius: 1000px;
+    display: flex;
+    justify-content: center;
+    display: inline-flex;
+    
+}
+.choose-button ul li{
+   
+}
+
+.choose-button .plan-btn li button{
+   border-radius: 1000px;
+   color: #f9f9f9;
+   background-color: #2b2d37;
+   font-size: 16px;
+   line-height: 30px;
+   text-align: center;
+   padding: 4px 16px;
+}
+.choose-button .plan-btn li.active button{
+    background: #0063E5;
+}
+.plan-cards{
+    padding: 24px;
+
+}
+.plan-cards .cards{
+    border: 1px solid #c0c0c0;
+    padding: 41px 45px;
+
+}
+.plan-cards{
+    text-align: left;
+}
+.plan-cards .card p{
+    font-size: 20px;
+    padding-bottom: 2px;
+
+}
+.plan-cards.cards ul{
+display: flex;
+gap: 5px ;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+/*==========3rd part End ============*/
+/*==========Navbar Start ===========*/
+/*==========Navber End ============*/
+/*==========Navbar Start ===========*/
+/*==========Navber End ============*/
+/*==========Navbar Start ===========*/
+/*==========Navber End ============*/
+/*==========Navbar Start ===========*/
+/*==========Navber End ============*/
+/*==========Navbar Start ===========*/
+/*==========Navber End ============*/

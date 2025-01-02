@@ -1,0 +1,58 @@
+/*==========All common CSS Start =========*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #2d2d2d;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+
+    list-style: none;
+}
+.container{
+    max-width:1276px ;
+    padding: 0 15px;
+}
+/*==========All common CSS End =========*/
+/*==========Navbar Start ===========*/
+nav{
+    padding: 10px 25px;
+    
+}
+nav .login {
+    text-align: right;
+}
+nav .login a{
+    border: 1px solid#c0c0c0;
+    border-radius:4px;
+    padding: 16px 17px;
+    color:#f9f9f9 ;
+    line-height: 18px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+
+
+
+/*==========Navber End ============*/
+/*==========Navbar Start ===========*/
+/*==========Navber End ============*/
+/*==========Navbar Start ===========*/
+/*==========Navber End ============*/
+/*==========Navbar Start ===========*/
+/*==========Navber End ============*/
+/*==========Navbar Start ===========*/
+/*==========Navber End ============*/
+/*==========Navbar Start ===========*/
+/*==========Navber End ============*/
+/*==========Navbar Start ===========*/
+/*==========Navber End ============*/
+/*==========Navbar Start ===========*/
+/*==========Navber End ============*/
